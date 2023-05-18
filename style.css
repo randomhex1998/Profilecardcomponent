@@ -63,3 +63,25 @@ li{
     height: 150px;
     border-radius: 10px 10px 0 0 ;
 }
+
+.card-box-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-box-prof{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.card-box-prof img{
+    width: 100%;
+    height: auto;
+}
+
+.card-box-title{
+    display: flex;
+    gap: 1rem;
+}
