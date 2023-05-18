@@ -9,6 +9,7 @@
 
 html{
     font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
 }
 
 a{
@@ -69,12 +70,15 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transform: translateY(-50px);
 }
 .card-box-prof{
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     overflow: hidden;
     border-radius: 100%;
+    border: 5px solid #fff;
+    transform: translateY(-10px);
 }
 .card-box-prof img{
     width: 100%;
