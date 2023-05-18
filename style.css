@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.4s linear;
+}
+
+html{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style:none;
+}
+
+.container{
+    position: relative;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.container .bubles{
+    position: fixed;
+}
+
+.container .Fbuble{
+    top: -600px;
+    left: 0;
+}
+.container .Sbuble{
+    bottom: -600px;
+    right: 0;
+}
